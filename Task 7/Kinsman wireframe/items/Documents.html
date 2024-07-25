@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Documents</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="documents-section">
+        <h1>Documents</h1>
+        <p>Below are some sample documents that you can download:</p>
+        <ul class="documents-list">
+            <li><a href="Documents/DOcument 1.pdf" target="_blank">Document 1</a></li>
+            <li><a href="Documents/Document 2.pdf" target="_blank">Document 2</a></li>
+            
+        </ul>
+    </div>
+</body>
+</html>
+<style>
+    /* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure body has some padding to view the section clearly */
+body {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Documents section styling */
+.documents-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.documents-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.documents-section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #555;
+}
+
+.documents-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.documents-list li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.documents-list a {
+    color: #1a73e8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.documents-list a:hover {
+    color: #0056b3;
+}
+
+/* Responsive design */
+@media (min-width: 600px) {
+    .documents-section {
+        padding: 40px;
+    }
+
+    .documents-section h1 {
+        font-size: 3em;
+    }
+
+    .documents-section p {
+        font-size: 1.3em;
+    }
+
+    .documents-list li {
+        font-size: 1.2em;
+    }
+}
+</style>

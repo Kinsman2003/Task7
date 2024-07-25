@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #61cfe0af;
+            color: #191a15b7;
+        }
+        header {
+            background-color:linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #27191a62;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+         /* Media Queries for Responsive Design */
+         @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                padding: 10px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+            .container h1 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>WIREFRAME<br>DESIGN</h1>
+</header>
+
+<nav>
+    <a href="items/About.html" target="_blank">About</a>
+    <a href="items/videos.html" target="_blank">Videos</a>
+    <a href="items/Documents.html" target="_blank">Documents</a>
+    <a href="items/Calendar.html" target="_blank">Calendar</a>
+    <a href="items/Payment.html" target="_Payment">Payment</a>
+    <a href="items/News.html" target="_blank">News</a>
+    <a href="items/Blog.html" target="_Blog">Blog</a>
+</nav>
+<div class="container">
+    <h1><u>Welcome to the Wireframe Design</u></h1>
+    <p>Select the frame content you want</p>
+</div>
+
+<footer>
+    &copy; 2024 Wireframe Design. All rights reserved.
+</footer>
+
+</body>
+</html>
